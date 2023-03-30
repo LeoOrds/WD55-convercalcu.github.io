@@ -1,0 +1,36 @@
+header {
+    padding: 2em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.katawan {
+    margin-top: 4em;
+}
+div .col {
+    padding: 8em;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 2em;
+}
+div .row {
+    padding-bottom: 5em;
+
+}
+div .arit {
+    padding: 5px;
+}
+.arrow {
+    line-height: 50px;
+    font-size: 50px;
+}
+.box {
+    border: 1px solid black;
+}
+div button {
+    margin-bottom: 1em;
+    margin-left: 2em;
+    cursor: pointer;
+}

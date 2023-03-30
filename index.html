@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="convcalcu.css">
+</head>
+  <body>
+    <title>Document</title>
+</head>
+<body>
+    <header>Conversion Calculator</header>
+    <div class="container katawan">
+        <div class="row">
+            <div class="col">
+                <h5>Weight Converter</h5>
+                <div style="float: left;">
+                <input type="number" id="inputWeight"> <br>
+                <label for="">Pounds</label> <br>
+                <div class="arrow">	&darr;</div> <br>
+                <input type="number" id="results">
+                <p id="K">Results</p>
+                </div>
+                <div class="row arit" style="float: end;">
+                    <button id="kilo" onclick="w1()" >Kilogram</button>
+                    <button id="ounce" onclick="w2()" >Ounces</button>
+                    <button id="gram" onclick="w3()" >Grams</button>
+                </div>
+            </div>
+
+            
+            <div class="col">
+                <h5>Length Converter</h5>
+                <div style="float: left;">
+                <input type="number" id="inputLength"> <br>
+                <label for="">Feet</label> <br>
+                <div class="arrow">	&darr;</div> <br>
+                <input type="number" id="resulta">
+                <p id="P">Results</p>
+                </div>
+                <div class="row arit" style="float: end;">
+                    <button id="meter" onclick="l1()" >Meters</button>
+                    <button id="inch" onclick="l2()" >Inches</button>
+                    <button id="cm" onclick="l3()" >Centimeters</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="container row">
+            <div class="col">
+                <h5>Time Converter</h5>
+                <div style="float: left;">
+                <input type="number" id="inputTime"> <br>
+                <label for="">Hour</label> <br>
+                <div class="arrow">	&darr;</div> <br>
+                <input type="number" id="result">
+                <p id="O">Results</p>
+                </div>
+                <div class="row arit" style="float: end;">
+                    <button id="min" onclick="a1()" >Minute</button>
+                    <button id="sec" onclick="a2()" >Second</button>
+                    <button id="mil" onclick="a3()" >Millisecond</button>
+                </div>
+            </div>
+
+            <div class="col">
+                <h5>Temperature Converter</h5>
+                <div style="float: left;">
+                <input type="number" id="inputTemp"> <br>
+                <label for="">Celsius</label> <br>
+                <div class="arrow">	&darr;</div> <br>
+                <input type="number" id="resultz">
+                <p id="s">Results</p>
+                </div>
+                <div class="row arit" style="float: end;">
+                    <button id="f" onclick="q1()" >Fahrenheit</button>
+                    <button id="k" onclick="q2()" >Kelvin</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="convacalcu.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
